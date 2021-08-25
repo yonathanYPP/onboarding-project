@@ -18,13 +18,13 @@ module.exports = {
       clientSecret: 'CoeGpie6MBuOjlo6',
       createdAt: new Date(),
       updatedAt: new Date()
-    }], {
+    }, {
       name: 'android',
       clientId: '3rfSYfuxReZdHHdH',
       clientSecret: 'tLsiOBT9M0HrpH1P',
       createdAt: new Date(),
       updatedAt: new Date()
-    });
+    }]);
   },
 
   down: async (queryInterface, Sequelize) => {

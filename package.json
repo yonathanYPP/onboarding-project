@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "db:migrate": "sequelize --config app/config/config.json --migrations-path app/migrations db:migrate",
+    "db:seed": "sequelize --config app/config/config.json --seeders-path app/seeders db:seed:all"
   },
   "repository": {
     "type": "git",
