@@ -1,0 +1,15 @@
+{
+    "development": {
+        "username": "avd",
+        "password": "avd",
+        "database": "onboarding-development",
+        "host": "localhost",
+        "dialect": "postgres",
+        "pool": {
+            "max": 5,
+            "acquire": 30000
+        },
+        "ssl": false,
+        "timezone": "+07:00"
+    }
+}
